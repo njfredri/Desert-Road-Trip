@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4031668101725223500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 748020552004353034}
+  - component: {fileID: 4310331272125848280}
+  - component: {fileID: 8481298823797660552}
+  - component: {fileID: 1981033323845572002}
+  m_Layer: 0
+  m_Name: TheHolyLand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &748020552004353034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4031668101725223500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.609, y: -5.2631, z: 19.651}
+  m_LocalScale: {x: 0.52465, y: 0.52465, z: 0.52465}
+  m_Children:
+  - {fileID: 637611369421405295}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4310331272125848280
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4031668101725223500}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8481298823797660552
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4031668101725223500}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1981033323845572002
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4031668101725223500}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &2402255966052159941
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 748020552004353034}
+    m_Modifications:
+    - target: {fileID: 2994831334633303466, guid: d2957f06c9ff9a549bbdd82461b411e5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2994831334633303466, guid: d2957f06c9ff9a549bbdd82461b411e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.4429
+      objectReference: {fileID: 0}
+    - target: {fileID: 2994831334633303466, guid: d2957f06c9ff9a549bbdd82461b411e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2994831334633303466, guid: d2957f06c9ff9a549bbdd82461b411e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 2994831334633303466, guid: d2957f06c9ff9a549bbdd82461b411e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.018020771
+      objectReference: {fileID: 0}
+    - target: {fileID: 2994831334633303466, guid: d2957f06c9ff9a549bbdd82461b411e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.018020656
+      objectReference: {fileID: 0}
+    - target: {fileID: 2994831334633303466, guid: d2957f06c9ff9a549bbdd82461b411e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7068772
+      objectReference: {fileID: 0}
+    - target: {fileID: 2994831334633303466, guid: d2957f06c9ff9a549bbdd82461b411e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7068771
+      objectReference: {fileID: 0}
+    - target: {fileID: 2994831334633303466, guid: d2957f06c9ff9a549bbdd82461b411e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2994831334633303466, guid: d2957f06c9ff9a549bbdd82461b411e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2994831334633303466, guid: d2957f06c9ff9a549bbdd82461b411e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.9210052
+      objectReference: {fileID: 0}
+    - target: {fileID: 5434335313745268269, guid: d2957f06c9ff9a549bbdd82461b411e5, type: 3}
+      propertyPath: m_Name
+      value: HolyLand
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d2957f06c9ff9a549bbdd82461b411e5, type: 3}
+--- !u!4 &637611369421405295 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2994831334633303466, guid: d2957f06c9ff9a549bbdd82461b411e5, type: 3}
+  m_PrefabInstance: {fileID: 2402255966052159941}
+  m_PrefabAsset: {fileID: 0}
